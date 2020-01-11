@@ -1,9 +1,9 @@
 from distutils.core import setup
 
 setup(
-    name='TowelStuff',
+    name='sample',
     version='0.1dev',
-    packages=['towelstuff',],
+    packages=['sample',],
     license='Creative Commons Attribution-Noncommercial-Share Alike license',
     long_description=open('README.txt').read(),
 )
