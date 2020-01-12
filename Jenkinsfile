@@ -1,6 +1,7 @@
 #!groovy
 pipeline {
-    agent { docker { image 'python:3.5.1' } }
+    agent {label 'slave'}
+    // agent { docker { image 'python:3.5.1' } }
     stages {
         stage('build') {
             steps {
