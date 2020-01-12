@@ -1,6 +1,6 @@
 #!groovy
 pipeline {
-    agent {label 'rpi'}
+    agent {label 'rpi1'}
     // agent { docker { image 'python:3.5.1' } }
     stages {
         stage('build') {
